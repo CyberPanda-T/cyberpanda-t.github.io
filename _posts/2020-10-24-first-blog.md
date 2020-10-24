@@ -1,5 +1,5 @@
 ---
-titile: The new beginning
+title: The new beginning
 categories: [gossip]
 ---
 
