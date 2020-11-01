@@ -15,18 +15,18 @@
     --header_bg: #fafafa;
     --content_bg: #fff;
     --archive_font: #000;
-    --archive_title: #46a891;
+    --archive_title: #4691a8;
     --archive_title_hover: #87CDBD;
     --name_font: #FFAA00;
     --job_font: #003845;
     --nav_font: #8d7edc;
     --nav_font_hover: #D4CEF2;
-    --shadow_color: rgba(160, 160, 160, 0.05);
+    --shadow_color: rgba(160, 160, 160, 0.35);
     --post_title: #003845;
     --post_date: #003845;
     --post_text: #4c4c4c;
     --post_h3: #4c4c4c;
-    --post_link: #46a891;
+    --post_link: #4691a8;
     --post_link_hover: #87CDBD;
     --inlinecode_text: #FFAA00;
     --blockquote: #333;
@@ -41,14 +41,14 @@
     --header_bg: #24292E;
     --content_bg: #2F3437;
     --archive_font: #CACCCE;
-    --archive_title: #46a891;
+    --archive_title: #4691a8;
     --archive_title_hover: #87CDBD;
     --name_font: #FFAA00;
     --job_font: #CACCCE;
     --nav_font: #8d7edc;
     --nav_font_hover: #D4CEF2;
     --shadow_color: rgba(0, 0, 0, 1);
-    --post_title: #46a891;
+    --post_title: #4691a8;
     --post_date: #e9ead7;
     --post_text: #CACCCE;
     --post_h3: #fff;
@@ -144,8 +144,8 @@ img {
     position: relative;
     max-width: 92%;
     min-height: 85%;
-    border-radius: 15px;
-    box-shadow: 0 0 2px 2px var(--shadow_color);
+    // border-radius: 15px;
+    box-shadow: 0 0 4px 4px var(--shadow_color);
     padding-bottom: 2rem;
 
     @include breakpoint(medium) {
@@ -290,7 +290,7 @@ img {
     position: absolute;
     top: 0;
     width: 100%;
-    border-radius: var(--border_radius);
+    // border-radius: var(--border_radius);
     box-shadow: 0 0 2px 2px var(--shadow_color);
 
     @include mobile-only {
@@ -326,6 +326,7 @@ img {
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
+    transition-duration: 1s;
 
     img {
         @extend .header_circle;
@@ -652,6 +653,10 @@ img {
         font-style: italic;
     }
 
+    // span {
+    //     border-bottom: dotted 1px var(--job_font);
+    // }
+
     dfn {
         border-bottom: dashed 1px var(--job_font);
         padding: 0 0.2rem;
@@ -672,7 +677,7 @@ img {
         font-weight: 700;
         line-height: 1.5em;
         padding: 0.5rem 0.8rem;
-        background: #064b4d;
+        background: #4691a8;
         pointer-events: none;
         transition: opacity 200ms, top 200ms;
     }
@@ -687,7 +692,7 @@ img {
         width: 0;
         height: 0;
         border: solid transparent 5px;
-        border-bottom-color: #064b4d;
+        border-bottom-color: #4691a8;
         transition: opacity 200ms, top 200ms;
     }
 
