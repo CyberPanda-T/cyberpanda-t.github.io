@@ -36,7 +36,7 @@ defaults:
     values:
       layout: post
       comment: true
-      title: title
+      title: there is no title
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
