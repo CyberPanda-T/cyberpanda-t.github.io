@@ -5,6 +5,9 @@ title: one words
 
 It`s interesting.
 
+## 2020-11-18
+最后200天，一个阶段的结束，一个阶段的开始。
+
 ## 2020-10-31
 
 联盟S10，SN打DWG输了。
