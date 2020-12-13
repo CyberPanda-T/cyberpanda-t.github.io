@@ -11,24 +11,24 @@
    ========================================================================== */
 
 @mixin lightMode {
-    --bg_color: #eee;
-    --header_bg: #fafafa;
-    --content_bg: #fff;
+    --bg_color: #EA5074;
+    --header_bg: #e94770;
+    --content_bg: #EA5074;
     --archive_font: #000;
-    --archive_title: #4691a8;
+    --archive_title: #fff219;
     --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
-    --job_font: #003845;
-    --nav_font: #8d7edc;
+    --name_font: #FFEC00;
+    --job_font: #014858;
+    --nav_font: #525e79;
     --nav_font_hover: #D4CEF2;
-    --shadow_color: rgba(160, 160, 160, 0.35);
-    --post_title: #003845;
-    --post_date: #003845;
-    --post_text: #4c4c4c;
-    --post_h3: #4c4c4c;
-    --post_link: #4691a8;
-    --post_link_hover: #87CDBD;
-    --inlinecode_text: #FFAA00;
+    --shadow_color: rgba(29, 27, 27, 0.35);
+    --post_title: #ffec00;
+    --post_date: #ffec00;
+    --post_text: #000000;
+    --post_h3: #000000;
+    --post_link: #62cff0;
+    --post_link_hover: #5695f3;
+    --inlinecode_text: #ffe600;
     --blockquote: #333;
     --footer_font: #858585;
     --footer_font_a: #000;
@@ -43,7 +43,7 @@
     --archive_font: #CACCCE;
     --archive_title: #4691a8;
     --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
+    --name_font: #FFEC00;
     --job_font: #CACCCE;
     --nav_font: #8d7edc;
     --nav_font_hover: #D4CEF2;
