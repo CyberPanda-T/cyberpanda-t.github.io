@@ -56,3 +56,16 @@ show_drafts: null
 limit_posts: 10
 future:      false
 unpublished: false
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.app
+# more info please open https://valine.js.org
+valine:
+  enable: true
+  appid: pQWh2bBhJsydwJJGckeBFf2y-gzGzoHsz
+  appkey: 83kdE4htbQKFd5R0OBKsN0uJ
+  avatar: robohash
+  placeholder: 在此处留下你的评论 # comment box placeholder
+  pageSize: 10 # pagination size
+  recordIP: false # 是否记录评论者IP
+  enableQQ: false # 是否启用昵称框自动获取QQ昵称和QQ头像, 默认关闭
